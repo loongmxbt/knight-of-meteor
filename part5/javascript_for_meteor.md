@@ -4,10 +4,13 @@ JavaScript is a language full of contradictions: it’s named after Java even th
 Javacript毫无疑问是一门充满矛盾与争议的语言：它打着Java的名号招摇过市却与Java毫无关联，它的诞生仅用了短短[10天][#javascript-histtory]却仍在20年后的今日广泛应用，尽管它被开发人员们广为诟病，但是在当今Web开发中却有着无可替代的地位，有哪个Web应用敢说它没有一行Javascript代码？
 
 If JavaScript has one thing going for it, is that it’s easy to get started with. Now don’t get me wrong: truly mastering JavaScript is a difficult task. But learning enough to get by isn’t that hard, and shouldn’t take long especially if you already have some experience with other programming languages.
+如果要为Javascript找个优点的话，那无疑是它很容易上手。但千万别高兴的太早，完全掌握Javascript也是一项非常艰巨的任务。学习到够用的程度并不是那么难，而且假设你之前有一些编程经验，那么你学起来会更快。
 
 What’s more, when building Meteor apps you’ll often find yourself re-using the same patterns over and over. And as stated by the Pareto principle, learning 20% of a language should be enough to cover 80% of situations.
+更重要的是，在Meteor中，你会发现自己一直在使用重复的代码模式。就如二八原理所阐述的那样，学习这门语言的20%足以应对80%的应用场景。
 
 So today, let’s take a look at the absolute minimum amount of JavaScript you need to know to learn Meteor.
+所以，这里我们会学习最少的JavaScript知识来帮助你掌握Meteor。
 
 ### Following Along
 
