@@ -1,6 +1,7 @@
 # A JavaScript Primer For Meteor
 
 JavaScript is a language full of contradictions: it’s named after Java even though it doesn’t have anything to do with it, it was [created in 10 days][#javascript-histtory] but is still in use 20 years later, and despite getting its fair share of criticism, it’s ubiquitous on the web.
+Javacript毫无疑问是一门充满矛盾与争议的语言：它打着Java的名号招摇过市却与Java毫无关联，它的诞生仅用了短短[10天][#javascript-histtory]却仍在20年后的今日广泛应用，尽管它被开发人员们广为诟病，但是在当今Web开发中却有着无可替代的地位，有哪个Web应用敢说它没有一行Javascript代码？
 
 If JavaScript has one thing going for it, is that it’s easy to get started with. Now don’t get me wrong: truly mastering JavaScript is a difficult task. But learning enough to get by isn’t that hard, and shouldn’t take long especially if you already have some experience with other programming languages.
 
