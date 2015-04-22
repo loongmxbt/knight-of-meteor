@@ -7,3 +7,5 @@
 Meteor 社区
 
 Meteor 核心思想 7 原则
+
+部署 Meteor
