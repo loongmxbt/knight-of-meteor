@@ -12,3 +12,5 @@ https://www.discovermeteor.com/blog/javascript-for-meteor/
 https://www.yauh.de/articles/376/best-learning-resources-for-meteorjs/
 
 视频教程：http://www.maiziedu.com/lesson/3448/
+
+Mac Tips
