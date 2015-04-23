@@ -64,7 +64,7 @@ sign in, sign up, forgot password, reset password, change password, and enroll a
 {{> atForm state='signUp'}}
 ```
 
-### 国际化支持
+### 国际化支持 TODO: have a problem
 ```
 T9n.setLanguage('<lang>');
 ```
