@@ -1,8 +1,9 @@
 # Summary
 
 * [Part I](part1/README.md)
-    * [Why Meteor](part1/why_meteor.md)
-    * [Seven Principles](part1/seven_principles.md)
+    * [Meteor简介](part1/meteor_intro.md)
+    * [为何使用Meteor](part1/why_meteor.md)
+    * [7大原则](part1/seven_principles.md)
 * [Part II](part2/README.md)
     * [cha1](part2/cha1.md)
     * [cha2](part2/cha2.md)
