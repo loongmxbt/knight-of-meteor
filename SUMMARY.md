@@ -17,6 +17,7 @@
     * [微信集成]()
     * [云存储集成]()
 * [Part V](part5/README.md)
+    * [meteor deploy]()
     * [部署mup]()
     * [部署docker]()
     * [javascript]()
