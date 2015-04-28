@@ -1,8 +1,12 @@
 # Summary
 
 * [Part I](part1/README.md)
-    * [Writing is nice](part1/writing.md)
-    * [GitBook is nice](part1/gitbook.md)
+    * [Why Meteor](part1/why_meteor.md)
+    * [Seven Principles](part1/seven_principles.md)
 * [Part II](part2/README.md)
-    * [We love feedback](part2/feedback_please.md)
-    * [Better tools for authors](part2/better_tools.md)
+    * [cha1](part2/cha1.md)
+    * [cha2](part2/cha2.md) 
+* [Part III](part3/README.md)
+    * [用户中心](part3/useraccounts.md)
+    * [智能表单](part3/autoforms.md)
+    * [CMS功能](part3/orionjs.md)
