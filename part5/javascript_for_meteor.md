@@ -175,12 +175,13 @@ This {title: 'My First Post'} argument is an anonymous JavaScript object. With J
 
 ### Anonymous Functions
 We’ve seen you can declare functions using the following syntax:
-
+```js
 myFunction = function (myArgument) {
   // do something
 }
+```
 And we’ve seen that JavaScript treats functions just like variables, letting you pass them as arguments to other functions:
-
+```js
 square = function (a) {
   return a*a;
 }
@@ -188,8 +189,9 @@ applyOperation = function (f, a) {
   return f(a);
 }
 applyOperation(square, 10); // 100
+```
 And we’ve also seen that JavaScript loves coming up with shorter ways to write things. So here’s an equivalent syntax:
-
+```js
 applyOperation = function (f, a) {
   return f(a);
 }
@@ -199,23 +201,26 @@ applyOperation(
   }, 
   10
 ) // 100
+```
 Instead of defining the square function and passing it as an argument, we’re defining it inside the argument call. This is known as using an “anonymous function”, and it’s one of the most common JavaScript patterns around.
 
 ### Chaining
 We’ve seen that you can pass parameters to functions. But there’s another syntax that you’ll often encounter for things such as array or string operations:
-
+```js
 var myArray = [123, 456];
 myArray.push(789) // 123, 456, 789
 var myString = "abcdef";
 myString.replace("a", "z"); // "zbcdef"
+```
 This dot notation means “call the replace function on myString with arguments “a” and “z” and return the result”.
 
 The beauty of it is that you can also chain multiple links together as long as they all return something. We won’t get into how to define chainable functions, but using them is easy enough. Just follow the something.function1().function2().function3() pattern.
 
 Each link of the chain will take a value, apply a function to it, and then pass on its result to the next link:
-
+```js
 n = 5;
 n.double().square(); //100
+```
 
 ### This
 
@@ -226,17 +231,19 @@ Basically, the this keyword lets you access the object on which you’re current
 So instead of trying to explain this, let me give you two tools to help you figure things out yourself (what do you mean, I’m taking the easy way out?!).
 
 The first is the good old console.log(), which prints any object to the browser’s console. Adding a console.log(this) to begin a function is often the best way to figure out what’s going on:
-
+```js
 myFunction = function (a, b) {
   console.log(this);
   // do something
 }
+```
 The second pattern is assigning this to another variable:
-
+```js
 myFunction = function (a, b) {
   var myObject = this;
   // do something
 }
+```
 While it might at first seem like this doesn’t accomplish anything, it lets you safely re-use myObject throughout your code, since unlike this its value won’t change depending on the context.
 
 ### Operators
@@ -246,40 +253,48 @@ While it might at first seem like this doesn’t accomplish anything, it lets yo
 If you want to compare two values, you would use ==, as in a == 12.
 
 JavaScript also features the === operator, which compares both value and type (i.e. string, integer, etc.):
-
+```js
 a = "12";
 a == 12; // true
 a === 12; // false
+```
 In most cases, you’ll want to use the === operator whenever comparing two values, because there aren’t that many cases where you’d want two variables to be equal in value but not in type.
 
 Here’s JavaScript’s unequality operator:
-
+```js
 a = 12;
 a !== 11; // true
+```
 The ! operator can also be used independently to get the opposite of a boolean value:
-
+```js
 a = true;
 !a; // false
+```
 An interesting consequence of the ! operator is that it always returns a boolean value, even if what comes after is not a boolean:
-
+```js
 a = 12;
 !a; // false
+```
 This means that if you want to convert a variable to boolean you can just use the ! operator twice (once to force the variable to boolean, a second time to revert the value back):
-
+```js
 a = 12;
 !!a; // true
+```
 Or:
-
+```js
 a = 0;
 !!a; // false
+```
 Weird Random Characters
 
 You’ll often encounter stuff like this:
-
+```js
 $('body').addClass('loaded');
+```
 Or this:
-
+```js
 _.shuffle([1, 2, 3, 4, 5, 6])
+```
 You might think $ and _ are special JavaScript operators, but they’re actually just user-defined variable names!
 
 $() is commonly used as an alias for the jQuery function (from the jQuery library), while _ is the main object of the Underscore library.
