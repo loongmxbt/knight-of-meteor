@@ -52,5 +52,7 @@ Options.set('forbidClientAccountCreation', false);
 
 ### 默认角色 Default Roles
 New users will not have any roles by default, unless you specify default roles:
-
+新用户默认不会有任何角色，除非你设定了默认角色。
+```
 Options.set('defaultRoles', ['role1', 'role2']);
+```
