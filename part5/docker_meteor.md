@@ -1,6 +1,13 @@
+## Docker
+Ubuntu 14.04 64bit
+```
+$ wget -qO- https://get.docker.com/ | sh
+```
+
 ## MeteorD - Docker Runtime for Meteor Apps 
 
 There are two main ways you can use Docker with Meteor apps. They are:
+这里有两种方式使用Docker。
 
 1. Build a Docker image for your app
 2. Running a Meteor bundle with Docker
