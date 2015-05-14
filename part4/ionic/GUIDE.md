@@ -263,12 +263,14 @@ To make an Ionic style list wrap your content in a `ionList` block template.
 ### ionItem
 To get a nice Ionic styled list item wrap your content in a `ionItem` block template. `ionItem` can be a list, form, links, etc. It is a very flexible component. I would suggest taking some time to discover all it can do. Below are some examples.
 
+为了得到一个Ionic样式的列表项，你得把你的内容包含在`ionItem`模板中。`ionItem`可以是一个列表、表单、链接等。
+
 #### Avatar/Icon/Button Example
 
 ```
 {{#ionList class="my-class"}}
   {{#each times}}
-    {{# buttonRight=true avatar=true}}
+    {{#ionItem buttonRight=true avatar=true}}
       <img src="https://randomuser.me/api/portraits/thumb/men/27.jpg">
       <h2>John Smith</h2>
       <p>(555) 555-1212</p>
