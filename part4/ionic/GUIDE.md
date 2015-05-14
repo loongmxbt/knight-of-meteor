@@ -80,9 +80,13 @@ Which outputs this:
 
 Some components may require several `<div>`'s or class names which can be difficult to remember. These can be abstracted away into the wrapper template allowing you to simply type a component name such as `{{#ionContent}}`.
 
-#### 2. Configuration options
+一些组建会需要很多`<div>`和类名，它们很难记忆。这些东西可以被抽象成一个wrapper模板，允许你使用简单的模板名`{{#ionContent}}`
+
+#### 2. Configuration options 可定制参数
 
 Using block helpers we can pass simple options to our template (e.g. `align='left'`, `title='My Modal'`) and let the template convert those options into CSS classes or HTML content.
+
+我们可以给block helpers传递一些简单的参数(e.g. `align='left'`, `title='My Modal'`)，然后模板会把这些参数转换成CSS类或HTML内容。
 
 For example a fictional `myPanel` component could be initialized like this:
 
