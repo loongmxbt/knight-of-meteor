@@ -159,6 +159,8 @@ Which will output:
 
 The `ionContent` component also accepts arbitrary CSS classes. For example, to use Ionic's built in `padding` class to add padding around your content, you can do:
 
+`ionContent`也接受CSS类。如，使用Ionic内置的padding类，来给你的内容主体增加padding。
+
 ```
 {{#ionContent class="padding"}}
   <p>Your content here</p>
@@ -178,6 +180,8 @@ Which would output:
 ## Navigation Stacks
 
 To mimic the sliding-back-and-forth navigation UI of mobile apps, meteor-ionic makes use of the three primary technologies:
+
+为了模拟滑动导航移动app的UI，meteor-ionic使用三大技术。
 
 - `iron:router`
 - `iron:layout`
@@ -217,12 +221,18 @@ In the individual templates that get rendered in the navigation stack, you will 
 
 The `ionView` component simply adds some CSS rules that allow it to be animated properly and the `ionContent` component should look familiar by now. However the `contentFor` blocks probably need some explaining:
 
+`ionView`组建仅仅增加了一些CSS代码使得页面有动画效果。
+
 ### ionNavBar
 This is where `iron:layout` comes into play. Our `ionNavBar` component exposes three "regions" that you can insert content into: "headerButtonLeft", "headerButtonRight" and "headerTitle". Whatever content you put inside the `contentFor` block will get inserted (and in this case, animated) into the correct region.
+
+这里是`iron:layout`登场的地方。`ionNavBar`组建暴露了三个你可以插入内容的区域，分别是"headerButtonLeft", "headerButtonRight" 和 "headerTitle"。你在`contentFor`内部写的东西都会被插入。
 
 ## Tabs
 
 To create Ionic style tabs you need to wrap your tabs into an `ionTabs` component. You can add the ionic tab classes to determine the style of your tabs. Single tabs are created with the `ionTab` element. The text of a tab is set with the `title` attribute. If you use icon tabs you can add ionicons with the `iconOff` and `iconOn`  attributes. You can also set a path to link the tab to an iron router route. Example:
+
+你可以使用`ionTabs`组建把你的tabs包裹起来来达到Ionic的效果。单个tab由`ionTab`创建。你可以设置`title`属性、`iconOff` and `iconOn`还有path。
 
 ```
 {{#ionTabs class="tabs-positive tabs-icon-top"}}
@@ -237,6 +247,7 @@ To create Ionic style tabs you need to wrap your tabs into an `ionTabs` componen
 ### ionList
 
 To make an Ionic style list wrap your content in a `ionList` block template. 
+你可以使用`ionList`模块来创建一个Ionic style的块模板
 
 ```
 {{#ionContent}}
@@ -257,7 +268,7 @@ To get a nice Ionic styled list item wrap your content in a `ionItem` block temp
 ```
 {{#ionList class="my-class"}}
   {{#each times}}
-    {{#ionItem buttonRight=true avatar=true}}
+    {{# buttonRight=true avatar=true}}
       <img src="https://randomuser.me/api/portraits/thumb/men/27.jpg">
       <h2>John Smith</h2>
       <p>(555) 555-1212</p>
