@@ -109,14 +109,18 @@ And could then output:
 </div>
 ```
 
-#### 3. Advanced Functionality
+#### 3. Advanced Functionality 高级特性
 
 Some of the more advanced components like `ionNavView`, `ionNavBar`, `ionModal`, etc provide full HTML structures, events and animations all with a single template include.
 
-## Layout Structure
+一些高级组建，如`ionNavView`, `ionNavBar`, `ionModal`等提供了整套的HTML模板结构，事件和动画，你只需要引入一个模板即可。
+
+## Layout Structure 页面布局
 
 ### ionBody
 All meteor-ionic apps must have an `ionBody` component at the root. This element has various classes and event handlers attached to it. In your `iron:router` layout, make sure you have an `ionBody` component surrounding your `{{>yield}}`:
+
+所有meteor-ionic apps必须在根模板有一个`ionBody`组建。在`iron:router`的layout中，确保你有一个`ionBody`组建，并在其中使用`{{>yield}}`。
 
 ```
 {{#ionBody}}
@@ -126,11 +130,16 @@ All meteor-ionic apps must have an `ionBody` component at the root. This element
 
 ### ionContent
 You will almost always want to wrap your templates in an `ionContent` component. The `ionContent` has two primary responsibilities:
+你将总是使用`ionContent`来包装你的模板。`ionContent`有两大主要功能：
 
 1. Implements native-feeling scrolling on the device using `-webkit-overflow-scrolling: touch;`
 2. Positions itself appropriately from the top or bottom of the screen when headers, footers and tabs are present.
 
+1. 实现了接近原生系统的滚动。 `-webkit-overflow-scrolling: touch;`
+2. 当页面有header，footer和tabs时，准确的定位自己。
+
 Most of your templates will follow this pattern:
+大多数模板会遵循这个模式：
 
 ```
 {{#ionContent}}
