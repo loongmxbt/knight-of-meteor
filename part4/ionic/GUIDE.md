@@ -1,5 +1,6 @@
-## Package Requirements
+## Package Requirements 依赖包
 Make sure you have the required packages installed:
+使用Ionic，首先需引入以下包
 
 ```
 iron:router
@@ -13,8 +14,11 @@ meteoric:ionic
 
 `meteor-ionic` makes extensive use of Blaze Templates. There are two ways to include a Blaze Template into your page: inclusion syntax and block syntax.
 
+`meteor-ionic`极大使用了Blaze Templates系统。有两种方式使用Blaze Template到页面中。
+
 ### Inclusion Syntax
 Most Meteor developers are already familiar with the inclusion syntax which takes a template like this:
+大多数Meteor开发者已经熟悉了如下的方式：
 
 ```
 <template name="myTemplate">
@@ -40,6 +44,7 @@ Which outputs this:
 
 ### Block Helpers
 The block syntax (also called block helpers) is much more interesting. A block helper allows us to create a "wrapper" template like so:
+块语意，块帮助函数更有趣
 
 ```
 <template name="myTemplate">
@@ -50,6 +55,7 @@ The block syntax (also called block helpers) is much more interesting. A block h
 ```
 
 And inject custom content into it when we include it on the page:
+它将自定义内容注入到模板中。
 ```
 <h1>Another Template</h1>
 {{#myTemplate}}
@@ -68,7 +74,9 @@ Which outputs this:
 ### `meteor-ionic` Components
 `meteor-ionic` uses these "block helpers" to mimic Angular's "directives" feature which is prevalent in Ionic. There are a few reasons for this:
 
-#### 1. Convenience
+`meteor-ionic` 使用"block helpers"来模拟Ionic中普遍使用的Angular的"directives"。这儿有许多原因：
+
+#### 1. Convenience 便捷性
 
 Some components may require several `<div>`'s or class names which can be difficult to remember. These can be abstracted away into the wrapper template allowing you to simply type a component name such as `{{#ionContent}}`.
 
