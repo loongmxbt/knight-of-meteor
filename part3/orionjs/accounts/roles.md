@@ -4,9 +4,12 @@ Orion uses ```nicolaslopezj:roles``` for roles.
 Basically this package let us define actions and later assign 
 allow/deny rules for that action.
 
+Orion使用```nicolaslopezj:roles```提供权限功能。通常这包让我们能够定义行为，然后赋予行为allow/deny规则。
+
 You can check the full documentation of ```nicolaslopezj:roles``` [here](http://github.com/nicolaslopezj/roles).
 
 ## Creating roles
+创建一个角色
 To create a new role
 ```js
 myRole = new Roles.Role('my-role');
@@ -14,6 +17,7 @@ myRole = new Roles.Role('my-role');
 
 ## Role Allow/Deny Rules
 You can then set custom allow/deny rules for specific roles to allow/deny users with the role certain actions
+你可以设置allow/deny规则给特定的行为。
 
 ```js
 myRole.allow(action, rule);
