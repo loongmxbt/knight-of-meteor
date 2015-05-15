@@ -345,3 +345,21 @@ Fortunately, Meteor Up **will take care** of that job for you and it will detect
 * [Using Meteor Up with Nitrous.io](https://github.com/arunoda/meteor-up/wiki/Using-Meteor-Up-with-Nitrous.io)
 * [Change Ownership of Additional Directories](https://github.com/arunoda/meteor-up/wiki/Change-Ownership-of-Additional-Directories)
 * [Using Meteor Up with NginX vhosts](https://github.com/arunoda/meteor-up/wiki/Using-Meteor-Up-with-NginX-vhosts)
+
+
+使用Nginx实现虚拟主机
+通过 Linux Packages 安装 Nginx
+
+http://nginx.org/en/linux_packages.html
+
+```
+deb http://nginx.org/packages/ubuntu/ codename nginx
+deb-src http://nginx.org/packages/ubuntu/ codename nginx
+```
+
+这里我们的Ubuntu版本是14.04，那么codename写trusty，添加这两行到` /etc/apt/sources.list`中
+
+```
+apt-get update
+apt-get install nginx
+```
