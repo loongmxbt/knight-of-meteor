@@ -61,6 +61,14 @@ You can use install and use Meteor Up from Linux, Mac and Windows.
 * Secured MongoDB Installation (Optional)
 * Pre-Installed PhantomJS (Optional)
 
+服务端配置
+* 如果App崩溃了，我们使用forever进行自动重启
+* 使用upstart如果服务器重启
+* 降低用户权限
+* 如果部署失败，回滚到之前版本
+* 安全的MongoDB部署
+* 预安装的PhantomJS
+
 ### Installation
 
     npm install -g mup
@@ -358,6 +366,15 @@ deb-src http://nginx.org/packages/ubuntu/ codename nginx
 ```
 
 这里我们的Ubuntu版本是14.04，那么codename写trusty，添加这两行到` /etc/apt/sources.list`中
+
+下载key 
+```
+wget http://nginx.org/keys/nginx_signing.key
+```
+添加key
+```
+sudo apt-key add nginx_signing.key
+```
 
 ```
 apt-get update
