@@ -4,9 +4,8 @@
 
 ## Meteor 是什么?
 
-Meteor 是一款全栈（Full Stack）的开发框架。
+Meteor 是一个构建在 Node.js 之上的平台，用来开发实时网页程序。Meteor 位于程序数据库和用户界面之间，保持二者之间的数据同步更新。我们也可以认为Meteor 是一款全栈（Full Stack）的开发框架或是生态系统（Ecosystem）。
 
-Meteor 是一个构建在 Node.js 之上的平台，用来开发实时网页程序。Meteor 位于程序数据库和用户界面之间，保持二者之间的数据同步更新。
 
 因为 Meteor 是基于 Node.js 开发的，所以在客户端和服务器端都使用 JavaScript 作为开发语言。而且，Meteor 程序的代码还能在前后两端共用。
 
