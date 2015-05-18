@@ -12,7 +12,7 @@ Meteor在官方文档中这样描述自己：
 
 Meteor是一组包库：预先写好的，你可能需要在你的应用程序独立模块。
 
-大约每个应用程序都将使用十几个Meteor核心包。举两个例子：`webapp`包，它会处理传入的HTTP连接和渲染模板，它可以让HTML模板根据数据的变化实时更新。再就是可选包，如`email`这个包，它可以让您的应用程序发送电子邮件，或Meteor Accounts系列（accounts-password, accounts-facebook, accounts-ui等等），它们提供了一个功能完备的用户帐户系统，你可以直接添加至你的应用程序。除了这些“核心”包，在Atmosphere上还有成千上万的社区包，可能其中一个就是你项目所需要的。
+大约每个应用程序都将使用十几个Meteor核心包。举两个例子：`webapp`包，它会处理传入的HTTP连接和渲染模板，它可以让HTML模板根据数据的变化实时更新。再就是可选包，如`email`这个包，它可以让您的应用程序发送电子邮件。还有Meteor Accounts系列（accounts-password, accounts-facebook, accounts-ui等等），它们提供了一个功能完备的用户帐户系统，你可以直接添加至你的应用程序。除了这些“核心”包，在Atmosphere上还有成千上万的社区包，可能其中一个就是你项目所需要的。
 
 Meteor是一个命令行工具。
 
