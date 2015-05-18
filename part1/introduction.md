@@ -4,13 +4,13 @@
 
 ## Meteor 是什么?
 
-Meteor在中文里是“流星”的意思，因此很多知名的Meteor项目或包的名称都与天文学有关。“流星”也代表了Meteor的核心思想——迅捷快速。
+Meteor在中文里是“流星”的意思，因此很多知名的Meteor项目或包的命名都与天文学有关。“流星”也代表了Meteor的核心思想——迅捷快速。
 
-Meteor是一个构建在Node.js之上的平台，被用来开发实时Web应用。值得注意的是，Meteor并不是Node.js的扩展包，它有自己的一套逻辑和生态系统。Meteor 位于程序数据库和用户界面之间，保持二者之间的数据同步更新。我们也可以认为Meteor 是一款全栈（Full Stack）开发框架。
+Meteor是一个构建在Node.js之上的平台，被用来开发实时Web应用。值得注意的是，Meteor并不是Node.js的扩展包，它有自己的一套逻辑和生态系统。Meteor 位于程序数据库和用户界面之间，保持二者之间的数据同步更新。我们也可以认为Meteor是一款全栈（Full Stack）开发框架。
 
 Meteor在官方文档中这样描述自己：
 
-Meteor是一组包库：预先写好的，你可能需要在你的应用程序独立模块。
+Meteor是一组包库（Packages），即一组预先写好的独立模块。
 
 大约每个应用程序都将使用十几个Meteor核心包。举两个例子：`webapp`包，它会处理传入的HTTP连接和渲染模板，它可以让HTML模板根据数据的变化实时更新。再就是可选包，如`email`这个包，它可以让您的应用程序发送电子邮件。还有Meteor Accounts系列（accounts-password, accounts-facebook, accounts-ui等等），它们提供了一个功能完备的用户帐户系统，你可以直接添加至你的应用程序。除了这些“核心”包，在Atmosphere上还有成千上万的社区包，可能其中一个就是你项目所需要的。
 
