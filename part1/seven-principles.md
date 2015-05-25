@@ -15,7 +15,7 @@ Embrace the Ecosystem. Meteor is open source and integrates with existing open s
 Simplicity Equals Productivity. The best way to make something seem simple is to have it actually be simple. Meteor's main functionality has clean, classically beautiful APIs.
 
 * Data on the Wire - 数据线路：Meteor从不发送HTML到客户端，服务器只传送数据，由客户端来渲染页面。
-* One Language - 同一种语言：Meteor在前后端使用同一种语言Javascript。
+* One Language - 同一种语言：Meteor在前后端使用同一种语言JavaScript。
 * Database Everywhere -数据库无处不在：你的数据库不仅仅存在服务器端，还存在干你的浏览器内部，你可以使用相同的代码获取数据。
 * Latency Compensation - 延迟补偿：在客户端，Meteor预先取得数据来渲染页面，这使它看起来像立即从服务端获取结果一样。
 * Full Stack Reactivity - 全栈随动：Meteor App都是实时App，从后台数据库到页面模板， 全部都会随着数据的变化而自动更新。
