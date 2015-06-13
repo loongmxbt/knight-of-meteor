@@ -160,8 +160,10 @@ myProfile = {
 }
 ```
 After the object declaration (myProfile = {…}) comes a list of comma-separated pairs. Each pair contains a key (a string, which can optionally be enclosed in quotes if it contains any spaces) and a value (any type of JavaScript item: strings, numbers, booleans, variables, arrays, objects, and even functions).
+在对象声明中，有一系列逗号分隔的键值对。
 
 You can also nest objects, and even use arrays:
+你可以嵌套对象，也可以使用数组：
 ```js
 myProfile = {
   name: "John Smith",
@@ -182,15 +184,18 @@ myProfile = {
 }
 ```
 Accessing an object’s property couldn’t be simpler: just use the dot notation. You can even combine it with arrays:
+获取对象属性相当简单，只需要使用点标记即可，你可以把它和数组一起用。
 ```js
 myProfile.name; // John Smith
 myProfile.friends[1].name; // Jane Doe
 ```
 You’ll find JavaScript objects almost everywhere in JavaScript, especially when invoking functions. For example, here’s how you would search for a post in your database with Meteor:
+你会发现JavaScript对象无处不在，尤其是在调用函数时。如，这里是你在Meteor搜索一篇文章
 ```js
 Posts.findOne({ title: 'My First Post' });
 ```
 This {title: 'My First Post'} argument is an anonymous JavaScript object. With JavaScript, you’ll see that most of the time you don’t actually need to assign a name to an object (or even to a function) to make use of it.
+{title: 'My First Post'} 参数是一个匿名JavaScript对象，在JavaScript中，你会发现大多数情况你无需给对象命名。
 
 
 ### Anonymous Functions
