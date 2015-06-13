@@ -198,7 +198,7 @@ This {title: 'My First Post'} argument is an anonymous JavaScript object. With J
 {title: 'My First Post'} 参数是一个匿名JavaScript对象，在JavaScript中，你会发现大多数情况你无需给对象命名。
 
 
-### Anonymous Functions
+### Anonymous Functions 匿名函数
 We’ve seen you can declare functions using the following syntax:
 ```js
 myFunction = function (myArgument) {
