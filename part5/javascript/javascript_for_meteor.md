@@ -278,6 +278,7 @@ myFunction = function (a, b) {
 }
 ```
 While it might at first seem like this doesn’t accomplish anything, it lets you safely re-use myObject throughout your code, since unlike this its value won’t change depending on the context.
+这可能初看没什么用，但是它可以让你重复使用myObject在代码中，与this不同，它并不会随上下文改变而改变。
 
 ### Operators
 
