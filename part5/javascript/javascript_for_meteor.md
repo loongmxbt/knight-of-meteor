@@ -257,10 +257,13 @@ this is probably one of the hardest concept to master in all of JavaScript.
 this是JavaScript概念中最难理解的部分。
 
 Basically, the this keyword lets you access the object on which you’re currently working: just like a chameleon, this keeps changing based on its surroundings.
+总体来说，this关键词使你能够进入你当前使用的对象，它就像变色龙，会根据周围环境不断变化。
 
 So instead of trying to explain this, let me give you two tools to help you figure things out yourself (what do you mean, I’m taking the easy way out?!).
+所以与其尝试解释它，不如给你两个工具让你自己发现了解它：
 
 The first is the good old console.log(), which prints any object to the browser’s console. Adding a console.log(this) to begin a function is often the best way to figure out what’s going on:
+第一个是经典的console.log()，它会输出任何对象到浏览器的console。console.log(this)
 ```js
 myFunction = function (a, b) {
   console.log(this);
