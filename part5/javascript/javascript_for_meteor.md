@@ -24,20 +24,31 @@ Ready? Let’s learn some JavaScript!
 
 Here’s how you declare a variable in JavaScript:
 
+你可以这样在JavaScript中声明一个变量：
+
 ```js
 var a;
 ```
 The var keyword lets JavaScript know that whatever comes after is a variable. Now let’s assign a value to our variable:
+
+var关键字使JavaScript知道后面的是变量，接着我们来给变量赋值：
+
 ```js
 var a = 12;
 ```
 Now maybe you’ve seen something like this while looking at some JavaScript code:
+你可能会看到如下形式的代码：
+
 ```js
 a = 12;
 ```
 JavaScript doesn’t seem to mind when you ommit the var keyword. So what is it good for?
+JavaScript并不关心你是否省略var关键字。所以使用var关键字的好处在哪儿呢？
 
 The var keyword makes our variable local. Inside a Meteor app, this means that prefixing a variable with var will restrict its scope to the function you’re declaring it in (or the file, if you declare it outside of any function).
+var关键字使变量成为局部变量。在Meteor中，使用var关键字能让变量作用域限制在函数中。
+
+此外，省略var关键字能让变量在整个Meteor应用中都可见。一些时候这是有用的，但大多数时候还是不要污染全局为妙。
 
 On the other hand, omitting the var keyword will make your variable available to your whole Meteor app. Sometimes that’s good, but in most case it’s better to try and avoid polluting the global scope.
 
