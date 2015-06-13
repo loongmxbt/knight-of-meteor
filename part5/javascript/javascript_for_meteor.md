@@ -254,6 +254,7 @@ n.double().square(); //100
 ### This
 
 this is probably one of the hardest concept to master in all of JavaScript.
+this是JavaScript概念中最难理解的部分。
 
 Basically, the this keyword lets you access the object on which you’re currently working: just like a chameleon, this keeps changing based on its surroundings.
 
