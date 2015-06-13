@@ -55,18 +55,23 @@ On the other hand, omitting the var keyword will make your variable available to
 ### Functions
 
 Here’s how you declare a function in JavaScript:
+以下是JavaScript中函数声明：
+
 ```js
 var myAwesomeFunction = function (myArgument) {
   // do something
 }
 ```
 And here’s how you’d call your function:
+和函数调用：
 ```js
 myAwesomeFunction(something);
 ```
 You’ll notice function declarations follow the same var something = somethingElse pattern as variable declarations.
+你会发现函数声明和变量声明一样，需要使用var。
 
 As they should, since in JavaScript, functions are variables too! This means that you can do stuff like using functions as arguments for other functions:
+在JavaScript中，函数也是变量！那意味着你可以把函数作为变量传入函数的参数列表中
 ```js
 square = function (a) {
   return a*a;
@@ -79,6 +84,7 @@ applyOperation (square, 10); // 100
 ### Return
 
 A return statement takes a value and returns this value as the result of a function. The key thing to remember here is that whatever comes after return will never get executed:
+return语句接收一个值并把这个值作为函数返回值。需要记住的事，return后面的语句不会被执行。
 ```js
 myFunction = function (a) {
   return a * 3;
@@ -93,6 +99,7 @@ if (foo) {
 }
 ```
 As long as the block of code inside the if fits in one line, you can also use this shorthand syntax (note the lack of curly brackets):
+只要if语句块只有一行，那么你可以省略大括号。
 ```js
 if (foo)
   return bar;
@@ -108,11 +115,13 @@ if (foo) {
 }
 ```
 If/Else statements also have their own shorthand syntax:
+If/Else 语句有缩写
 
 ```js
 foo ? function1() : function2();
 ```
 This is particularly useful when assigning a value to a variable:
+这在赋值语句中很有用：
 
 ```js
 var n = foo ? 1 : 2;
