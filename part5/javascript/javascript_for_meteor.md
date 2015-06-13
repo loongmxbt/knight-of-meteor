@@ -200,11 +200,13 @@ This {title: 'My First Post'} argument is an anonymous JavaScript object. With J
 
 ### Anonymous Functions 匿名函数
 We’ve seen you can declare functions using the following syntax:
+你可以使用如下语法声明函数：
 ```js
 myFunction = function (myArgument) {
   // do something
 }
 ```
+我们知道JavaScript把函数看做变量，你可以把函数当做参数传递给其他函数：
 And we’ve seen that JavaScript treats functions just like variables, letting you pass them as arguments to other functions:
 ```js
 square = function (a) {
@@ -215,6 +217,7 @@ applyOperation = function (f, a) {
 }
 applyOperation(square, 10); // 100
 ```
+JavaScript喜欢简洁的方式写代码，下面的语法是相同的：
 And we’ve also seen that JavaScript loves coming up with shorter ways to write things. So here’s an equivalent syntax:
 ```js
 applyOperation = function (f, a) {
@@ -227,6 +230,7 @@ applyOperation(
   10
 ) // 100
 ```
+
 Instead of defining the square function and passing it as an argument, we’re defining it inside the argument call. This is known as using an “anonymous function”, and it’s one of the most common JavaScript patterns around.
 
 ### Chaining
