@@ -4,6 +4,7 @@ Carefully Designed Client Side Router for Meteor.
 细心设计的Meteor客户端路由。
 
 Flow Router is a minimalistic router which only handles routing and subscriptions. You can't have any kind of reactive code inside the router. But there is a rich reactive API to watch changes in the routes.
+Flow Router是一个最小的路由
 
 ## TOC
 
