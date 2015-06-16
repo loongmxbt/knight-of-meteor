@@ -16,8 +16,18 @@ LAMP是一组用来搭建动态网站或者服务器的开源软件，它们是�
 ## Rails + Backbone
 在2010年之前，网页的渲染基本上还处于静态页面的阶段，也就是说，由服务端生成好HTML代码再传输到客户端，也就是浏览器。
 
+### Rails
+
+### Backbone
+Backbone 为复杂Javascript应用程序提供模型(models)、集合(collections)、视图(views)的结构。其中模型用于绑定键值数据和自定义事件；集合附有可枚举函数的丰富API； 视图可以声明事件处理函数，并通过RESTful JSON接口连接到应用程序。
+
 ## Express + Angular
+
+### Express
 Express 是一个简洁、灵活的 node.js Web 应用开发框架, 它提供一系列强大的特性，帮助你创建各种 Web 和移动设备应用。
+
+### Angular
+AngularJS诞生于2009年，由Misko Hevery 等人创建，后为Google所收购。是一款优秀的前端JS框架，已经被用于Google的多款产品当中。AngularJS有着诸多特性，最为核心的是：MVVM、模块化、自动化双向数据绑定、语义化标签、依赖注入、等等。
 
 AngularJS是为了克服HTML在构建应用上的不足而设计的。HTML是一门很好的为静态文本展示设计的声明式语言，但要构建WEB应用的话它就显得乏力了。所以我做了一些工作（你也可以觉得是小花招）来让浏览器做我想要的事。
 
@@ -43,3 +53,8 @@ REST（Representational State Transfer，表现层状态转化）这个词，是
 * 资源（Resources）－ 所谓“资源”，就是网络上的一个实体，或者说是网络上的一个具体信息。
 * 表现层（Representation）－ 我们把“资源”具体呈现出来的形式，叫做它的“表现层”。
 * 状态转化（State Transfer）－ 如果客户端想要操作服务器，必须通过某种手段，让服务器端发生“状态转化”。
+
+
+## Meteor
+
+为什么还要两套甚至多套系统呢？为什么不把它们整合到一套系统里面呢？于是便有了Meteor。
