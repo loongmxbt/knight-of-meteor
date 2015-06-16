@@ -3,7 +3,7 @@
 ## LAMP 架构
 LAMP是一组用来搭建动态网站或者服务器的开源软件，它们是各自独立的程序，但是因为常被放在一起使用，拥有了越来越高的兼容度，共同组成了一个强大的Web应用程序平台。
 
-通常，经典的LAMP架构是指这几样东西：以Linux为代表的开源服务器操作系统，如Ubuntu，CentOS等Linux发行版；以Apache为代表的Web服务器软件，MySQL为代表的数据库管理系统和PHP这个服务端脚本语言。
+通常，经典的LAMP架构是指这几样东西：以Linux为代表的开源服务器操作系统，如Ubuntu，CentOS等Linux发行版；以Apache为代表的开源Web服务器软件；以MySQL为代表的开源数据库管理系统和PHP这个服务端脚本语言。
 
 当然，广义的LAMP可以替换其中的任何一样或几样软件。如Linux发行版可以用FreeBSD等代替，Apache用Nginx代替（通常被称为LNMP或LEMP），MySQL用MariaDB代替，PHP用Perl或Python代替等等。倘若切换到Windows体系，则可以使用IIS作为服务器软件，也可以使用PHP等脚本语言而不是ASP。
 
