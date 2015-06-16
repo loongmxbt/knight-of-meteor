@@ -15,7 +15,7 @@ Meteor是一个构建在Node.js之上的开发平台，被用来开发实时Web�
 
 Meteor是一系列包库（Packages），即一组预先写好的独立模块。
 
-大约每个应用程序都将使用十几个Meteor核心包。举两个例子：如`webapp`包，它会处理传入的HTTP连接和渲染模板，它可以让HTML模板根据数据的变化实时更新。再就是可选包，如`email`这个包，它可以让你的应用程序发送电子邮件。此外还有Meteor Accounts系列（`accounts-password, accounts-weibo, accounts-ui`等等），它们提供了一个功能完备的用户帐户系统，你可以直接添加至你的应用程序。除了这些“核心”包，在`Atmosphere`上还有成千上万的社区包，可能其中一个就是你项目所需要的。
+大约每个应用程序都将使用十几个Meteor核心包。举两个例子：如`webapp`包，它会处理传入的HTTP连接和渲染模板，它可以让HTML模板根据数据的变化实时更新。再就是可选包，如`email`这个包，它可以让你的应用程序发送电子邮件。此外还有Meteor Accounts系列（`accounts-password, accounts-weibo, accounts-ui`等等），它们提供了一个功能完备的用户帐户系统，你可以直接添加至你的应用程序。除了这些核心包，在`Atmosphere`上还有成千上万的社区包，可能其中一个就是你项目所需要的。
 
 Meteor是一个命令行工具。
 
