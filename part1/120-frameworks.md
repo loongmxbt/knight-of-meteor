@@ -15,3 +15,6 @@ LAMP是一组用来搭建动态网站或者服务器的开源软件，它们是�
 
 ## Rails + Backbone
 在2010年之前，网页的渲染基本上还处于静态页面的阶段，也就是说，由服务端生成好HTML代码再传输到客户端，也就是浏览器。
+
+## Express + Angular
+Express是一款基于Node.js的MVC框架，Angular是
