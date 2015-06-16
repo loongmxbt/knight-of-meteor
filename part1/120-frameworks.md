@@ -20,3 +20,8 @@ LAMP是一组用来搭建动态网站或者服务器的开源软件，它们是�
 Express是一款基于Node.js的MVC框架，Angular是
 
 ## Restful API
+REST（Representational State Transfer，表现层状态转化）这个词，是 Roy Thomas Fielding 在他2000年的博士论文中提出的。
+
+* 资源（Resources）－ 所谓“资源”，就是网络上的一个实体，或者说是网络上的一个具体信息。
+* 表现层（Representation）－ 我们把“资源”具体呈现出来的形式，叫做它的“表现层”。
+* 状态转化（State Transfer）－ 如果客户端想要操作服务器，必须通过某种手段，让服务器端发生“状态转化”。
