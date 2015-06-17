@@ -55,6 +55,7 @@ Then you can see some messages printed in the console.
 ## Routes Definition
 
 Flow Router routes are very simple and based on the syntax of [path-to-regexp](https://github.com/pillarjs/path-to-regexp) which is used in both [Express](http://expressjs.com/) and `iron:router`.
+Flow Router的路由非常简单，它是基于[path-to-regexp](https://github.com/pillarjs/path-to-regexp)的语法，被[Express](http://expressjs.com/)和`iron:router`所用。
 
 Here's the syntax for a simple route:
 
