@@ -4,7 +4,7 @@ Carefully Designed Client Side Router for Meteor.
 细心设计的Meteor客户端路由。
 
 Flow Router is a minimalistic router which only handles routing and subscriptions. You can't have any kind of reactive code inside the router. But there is a rich reactive API to watch changes in the routes.
-Flow Router是一个最小的路由
+Flow Router是一个最小的路由用来处理路由和订阅。你不能在路由中使用任何reactive代码。但是它提供了一套丰富的reactive API来观察路由中的变化。
 
 ## TOC
 
@@ -21,12 +21,14 @@ Flow Router是一个最小的路由
 ## Getting Started
 
 Add Flow Router to your app:
+添加Flow Router包至你的App。
 
 ~~~shell
 meteor add meteorhacks:flow-router
 ~~~
 
 Let's write our first route (add this file to `lib/router.js`):
+让我们写第一个路由，我们把路由文件放到`lib/router.js`
 
 ~~~js
 FlowRouter.route('/blog/:postId', {
@@ -40,7 +42,9 @@ FlowRouter.route('/blog/:postId', {
 });
 ~~~
 
+
 Then visit `/blog/my-post-id` from the browser or invoke the following command from the browser console:
+你可以在浏览器中访问`/blog/my-post-id`，或者在浏览器命令行中调用如下命令：
 
 ~~~js
 FlowRouter.go('/blog/my-post-id');
