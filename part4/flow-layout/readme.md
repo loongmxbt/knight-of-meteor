@@ -58,6 +58,7 @@ Flow Router routes are very simple and based on the syntax of [path-to-regexp](h
 Flow Router的路由非常简单，它是基于[path-to-regexp](https://github.com/pillarjs/path-to-regexp)的语法，被[Express](http://expressjs.com/)和`iron:router`所用。
 
 Here's the syntax for a simple route:
+这里是一个简单路由的语法：
 
 ~~~js
 FlowRouter.route('/blog/:postId', {
