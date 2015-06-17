@@ -99,6 +99,7 @@ For a single interaction, the router only runs once. That means, after you've vi
 对于一次交互，这条路由仅执行一次。那意味着，在你访问路由之后，首先它会调用`middlewares`，接着是`subscriptions`，最后是`action`。在那之后，访问这条路由这些方法就不会再被调用了。
 
 You can define routes anywhere in the `client` directory. But, we recommend to add them in the `lib` directory. Then `fast-render` can detect subscriptions and send them for you (we'll talk about this is a moment).
+你可以将路由放在`client`目录中，但我们建议你放在lib中。因为在lib中`fast-render`能够检测到订阅并发送给你。
 
 ### Group Routes
 
