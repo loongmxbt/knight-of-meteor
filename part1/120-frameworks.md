@@ -21,6 +21,8 @@ LAMP是一组用来搭建动态网站或者服务器的开源软件，它们是�
 ### Backbone
 Backbone 为复杂Javascript应用程序提供模型(models)、集合(collections)、视图(views)的结构。其中模型用于绑定键值数据和自定义事件；集合附有可枚举函数的丰富API； 视图可以声明事件处理函数，并通过RESTful JSON接口连接到应用程序。
 
+Backbone 其实是一个十分久远的前端框架, 或者说, 在 Angular 之前, 它是事实的标准. 而且在很多重前端的项目中, 都应用很不错. 随着时间的推进, 小而美( 核心只有 1000 多行 )不太适合普通开发者使用, 重复开发的轮子太多, 人们开们转向 Angular 与 Ember 了.
+
 ## Express + Angular
 
 ### Express
@@ -46,6 +48,11 @@ AngularJS使用了不同的方法，它尝试去补足HTML本身在构建应用�
 能将HTML分组成可重用的组件。
 
 
+### MEAN.js
+
+MEAN.JS is a full-stack JavaScript solution that helps you build fast, robust, and maintainable production web applications using MongoDB, Express, AngularJS, and Node.js.
+
+为什么不选择MEAN而选择Meteor呢？因为Meteor前后端更加的统一。
 
 ## Restful API
 REST（Representational State Transfer，表现层状态转化）这个词，是 Roy Thomas Fielding 在他2000年的博士论文中提出的。
