@@ -81,6 +81,7 @@ FlowRouter.route('/blog/:postId', {
 ~~~
 
 So, this route will be activated when you visit a url like below:
+如果你访问如下url，这条路由会被匹配
 
 ~~~js
 FlowRouter.go('/blog/my-post?comments=on&color=dark');
@@ -94,6 +95,8 @@ Query Params: {comments: "on", color: "dark"}
 ~~~
 
 For a single interaction, the router only runs once. That means, after you've visit a route, first it will call `middlewares`, then `subscriptions` and finally `action`. After that happens, none of those methods will be called again for that route visit.
+
+对于一次交互，这条路由仅执行一次。那意味着，在你访问路由之后，首先它会调用`middlewares`，接着是`subscriptions`，最后是`action`。在那之后，访问这条路由这些方法就不会再被调用了。
 
 You can define routes anywhere in the `client` directory. But, we recommend to add them in the `lib` directory. Then `fast-render` can detect subscriptions and send them for you (we'll talk about this is a moment).
 
