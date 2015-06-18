@@ -14,11 +14,15 @@
 
 Fluency on the command line is a skill often neglected or considered arcane, but it improves your flexibility and productivity as an engineer in both obvious and subtle ways. This is a selection of notes and tips on using the command-line that I've found useful when working on Linux. Some tips are elementary, and some are fairly specific, sophisticated, or obscure. This page is not long, but if you can use and recall all the items here, you know a lot.
 
+流畅的使用命令行是一个经常被人们所忽视的技能，人们总认为那些人是神秘的。流畅的命令行使用能够显著提升你做事的灵活性和生产力。这是一篇Linux下命令行使用的笔记和提示精选集。一些提示是很基本的，另外一些则比较专业，经验性的或比较模糊。这篇精选集并不长，但是如果你把其中的内容都记忆下来，你会了解很多知识。
+
 Much of this
 [originally](http://www.quora.com/What-are-some-lesser-known-but-useful-Unix-commands)
 [appeared](http://www.quora.com/What-are-the-most-useful-Swiss-army-knife-one-liners-on-Unix)
 on [Quora](http://www.quora.com/What-are-some-time-saving-tips-that-every-Linux-user-should-know),
 but given the interest there, it seems it's worth using Github, where people more talented than I can readily suggest improvements. If you see an error or something that could be better, please submit an issue or PR! (But only after reviewing the scope/philosophy bullets below.)
+
+许多内容源自Quora，但是把它们放到Github上是更明智的选择，这样很多比我更聪明的人就能提出改进的建议。
 
 Scope:
 
@@ -55,9 +59,14 @@ Scope:
 
 - In Bash, use **Tab** to complete arguments and **ctrl-r** to search through command history.
 
+- 在Bash中，使用**Tab**来补全命令参数，使用**ctrl-r**来搜索命令行历史记录
+
 - In Bash, use **ctrl-w** to delete the last word, and **ctrl-u** to delete the whole line. Use **alt-b** and **alt-f** to move by word, **ctrl-k** to kill to the end of the line, **ctrl-l** to clear the screen. See `man readline` for all the default keybindings in Bash. There are a lot. For example **alt-.** cycles through previous arguments, and **alt-*** expands a glob.
 
+- 在Bash中，使用**ctrl-w**来删除最后一个单词，使用**ctrl-u**来删除整行，使用**alt-b**和**alt-f**来逐个单词移动，**ctrl-k**来删除光标后的整行。
+
 - To go back to the previous working directory: `cd -`
+- 返回上一个工作目录：`cd -`
 
 - If you are halfway through typing a command but change your mind, hit **alt-#** to add a `#` at the beginning and enter it as a comment (or use **ctrl-a**, **#**, **enter**). You can then return to it later via command history.
 
