@@ -63,6 +63,13 @@ AngularJS使用了不同的方法，它尝试去补足HTML本身在构建应用�
 能将逻辑代码关联到相关的DOM元素上；
 能将HTML分组成可重用的组件。
 
+实际上我们可以把V8，Node.js，Express.js的关系归纳为三级封装的形式。
+
+首先，Node.js是一个JavaScript运行时环境，它是对Google V8引擎进行了封装。它替代了一些V8的API使得能够在非浏览器的环境下运行的更好。
+而Express.js则是对Node.js进行了封装，Express.js在Node.js之上扩展了Web应用所需的功能。
+
+
+
 
 ### MEAN.js
 
