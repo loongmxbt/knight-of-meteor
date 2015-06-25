@@ -32,6 +32,7 @@ discuz国内的论坛
 在2010年之前，网页的渲染基本上还处于静态页面的阶段，也就是说，由服务端生成好HTML代码再传输到客户端，也就是浏览器。
 
 ### Rails
+单单从功能上来看，Rails和PHP的一些框架并没有本质上的区别，但是Rails有自己的一套核心理念，Convention over Configuration，习惯约定优于配置，Rails程序默认提供一种标准的MVC解决方案和标准项目结构，这使得Rails应用的配置文件很少，开发人员不必再关注一些琐碎的细节。同时基于Ruby强大的元编程能力，程序代码可以写的非常精简，极大的提升了开发效率。
 
 ### Backbone
 Backbone 为复杂Javascript应用程序提供模型(models)、集合(collections)、视图(views)的结构。其中模型用于绑定键值数据和自定义事件；集合附有可枚举函数的丰富API； 视图可以声明事件处理函数，并通过RESTful JSON接口连接到应用程序。
