@@ -2,7 +2,7 @@ Geoff Schmidt 杰夫·施密特
 @immir
 Geoff was one of the inventors of audio fingerprinting and raised his first venture capital round at age 20. He was one of the original authors of Miro, the decentralized Internet TV platform, which today has about two million active users. In 2007, he founded MixApp, which allowed people all over the world to listen to music simultaneously over a realtime peer-to-peer network. In 2010, he was employee #9 at Asana, where he worked on the Luna application platform. Geoff is the proprietor of Monument, a 24-unit live/work community for scientists and artists, currently being built in a converted warehouse in San Francisco. As a teenager, Geoff won the overall prize at world science fair, was invited to the Nobel prize ceremony, and attended MIT for almost four months.
 
-杰夫是音频指纹识别的发明者之一，在20岁就获得了第一笔风投。他是Miro，一个分布式互联网电视平台的作者之一，目前有200万活跃用户。2007年，他创立了MixApp，这让人们在世界各地超过一个实时的对等网络同时听音乐。2010年，他是员工＃9时体位，在那里，他的卢娜应用平台。杰夫是纪念碑，一个24单元生活/工作的社会科学家和艺术家，目前在建在旧金山仓库改建的东主。作为一个十几岁，杰夫赢得了世界的科学展览的整体奖，被邀请到诺贝尔经济学奖典礼，并出席麻省理工学院将近四个月。
+杰夫是音频指纹识别的发明者之一，在20岁就获得了第一笔风投。他是Miro，一个分布式互联网电视平台的作者之一，目前有200万活跃用户。在2007年，他创立了MixApp，让世界各地的人们通过一个P2P实时听音乐。2010年，他是Asana的第9名员工，在那里，他负责Luna应用平台开发。杰夫是Monument的经营者，一个给科学家和艺术家提供的的24单元生活/工作社区，目前正在旧金山的仓库改建。作为一个青年人，杰夫赢得了世界的科学展览的大奖，被邀请参加诺贝尔奖典礼，并出席麻省理工学院将近四个月。
 
 
 Matt DeBergalis 马特DeBergalis
@@ -97,3 +97,11 @@ Cat connects people to their passions and gets them what they need to accomplish
 Nick Coe
 @ncoe12
 Nick has spent his career organizing communities of people around causes they care about. In 2014, he was the Regional Organizing Director in southern Minnesota for Al Franken's successful re-election campaign, where he hired, trained, and managed a fourteen person field staff that contacted 400,000 voters. Before that, Nick worked as the Silicon Valley Regional Coordinator for FWD.us, as an intern in the White House Press Office, and as a field organizer on Barack Obama's 2012 presidential campaign.
+
+
+
+Meteor是由ActBlue联合创始人马特·德伯加利斯（Matt DeBergalis）、MixApp联合创始人尼克·马丁（Nick Martin）和Asana早期员工/MixApp联合创始人吉奥夫·施密特（Geoff Schmidt）共同创办的。AppJet联合创始人、后任职于谷歌(微博)Wave项目的大卫·格林斯潘（David Greenspan）也是Meteor早期员工之一。这些人知道如何创建丰富的互动、实时Web应用，而且知道为浏览器开发现代的桌面应用是件多么艰难的事情。
+
+在2012年7月
+
+开源平台Meteor就获得来自Andreessen Horowitz和Matrix Partners两家投资机构价值1120万美元的资金A轮融资。这是Andreessen Horowitz继1亿美元投资Github之后又一次投资软件开发领域。
