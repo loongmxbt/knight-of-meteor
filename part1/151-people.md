@@ -2,7 +2,7 @@ Geoff Schmidt 杰夫·施密特
 @immir
 Geoff was one of the inventors of audio fingerprinting and raised his first venture capital round at age 20. He was one of the original authors of Miro, the decentralized Internet TV platform, which today has about two million active users. In 2007, he founded MixApp, which allowed people all over the world to listen to music simultaneously over a realtime peer-to-peer network. In 2010, he was employee #9 at Asana, where he worked on the Luna application platform. Geoff is the proprietor of Monument, a 24-unit live/work community for scientists and artists, currently being built in a converted warehouse in San Francisco. As a teenager, Geoff won the overall prize at world science fair, was invited to the Nobel prize ceremony, and attended MIT for almost four months.
 
-杰夫是音频指纹识别的发明者之一，并提出他的第一笔风险投资一轮20岁。他是米罗，分散式互联网电视平台，目前拥有约200万活跃用户的原作者之一。2007年，他创立了MixApp，这让人们在世界各地超过一个实时的对等网络同时听音乐。2010年，他是员工＃9时体位，在那里，他的卢娜应用平台。杰夫是纪念碑，一个24单元生活/工作的社会科学家和艺术家，目前在建在旧金山仓库改建的东主。作为一个十几岁，杰夫赢得了世界的科学展览的整体奖，被邀请到诺贝尔经济学奖典礼，并出席麻省理工学院将近四个月。
+杰夫是音频指纹识别的发明者之一，在20岁就获得了第一笔风投。他是Miro，一个分布式互联网电视平台的作者之一，目前有200万活跃用户。2007年，他创立了MixApp，这让人们在世界各地超过一个实时的对等网络同时听音乐。2010年，他是员工＃9时体位，在那里，他的卢娜应用平台。杰夫是纪念碑，一个24单元生活/工作的社会科学家和艺术家，目前在建在旧金山仓库改建的东主。作为一个十几岁，杰夫赢得了世界的科学展览的整体奖，被邀请到诺贝尔经济学奖典礼，并出席麻省理工学院将近四个月。
 
 
 Matt DeBergalis 马特DeBergalis
